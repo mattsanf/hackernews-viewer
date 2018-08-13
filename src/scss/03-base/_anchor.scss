@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color: $orange;
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

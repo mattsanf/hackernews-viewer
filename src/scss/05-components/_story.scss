@@ -1,0 +1,19 @@
+.story {
+  width: 100%;
+  max-width: 100vw;
+  border: 1px solid $orange;
+  border-radius: 5px;
+
+  .link {
+    width: 100%;
+    @include respond-above(xs) {
+      width: 50%
+    }
+  }
+  .poster {
+    width: 50%;
+    @include respond-above(xs) {
+      width: 25%
+    }
+  }
+}
